@@ -1,0 +1,1 @@
+module.exports.reportController = require('./report.controller')
