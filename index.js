@@ -8,7 +8,7 @@ const ApiError = require("./utils/ApiError");
 
 const app = express();
 
-dotenv.config();
+// dotenv.config();
 
 app.use(express.json());
 
