@@ -1,4 +1,4 @@
-const dotenv = require("dotenv");
+const dotenv = require("dotenv").config();
 const cors = require("cors");
 const { PORT } = require("./constant/common");
 const helmet = require("helmet");
